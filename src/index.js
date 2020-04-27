@@ -3,10 +3,9 @@ const _max = 350;
 
 const isInt = number => number == parseInt(number);
 
-const isElement = (number, signal) =>
-  isInt((5 * number ** 2 + signal * 4 * (-1) ** number) ** .5);
-
-const inSequence = number => isElement(number, 1) || isElement(number, -1);
+const inSequence = number =>
+  [1, -1].map((signal) =>
+    isInt((5 * number ** 2 + signal * 4 * (-1) ** number) ** .5)).includes(true);
 
 const getSequence = (limit, sequence = _ini) => {
   const next = sequence.slice(-2).reduce((total, current) => total + current);
