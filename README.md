@@ -1,27 +1,25 @@
-# Fibonacci usando NodeJS
+# Fibonacci using NodeJS
 
-Faça um método `fibonacci` que retorne um `Array` com os primeiro números de série de *Fibonacci* até passar de *350*.
+Make a `fibonacci` method that returns an `Array` with the first *Fibonacci* series numbers until it passes *350*.
 
-> A série de Fibonacci é a seguinte: 0, 1, 1, 2, 3, 5, 8, 13, etc...
+> The Fibonacci series is as follows: 0, 1, 1, 2, 3, 5, 8, 13, etc...
 
-Faça um segundo método `"isFibonnaci"` que recebe um `Number` como parâmetro e retorne `Boolean`.
-Caso o número recebido por parâmetro esteja entre os números da sequência de *Fibonnaci* do `"fibonnaci"` retorne `true`, senão, `false`.
+Make a second method `"isFibonnaci"` that takes a `Number` as parameter and returns `Boolean`.
+If the number received as parameter is among the numbers in the *Fibonnaci* sequence of `"fibonnaci"` return `true`, otherwise `false`.
 
-## Tópicos
+## Topics
 
-Neste desafio você aprenderá:
+In this challenge you will learn:
 
-- Variáveis e métodos
-- Operadores matemáticos
-- Controle de fluxo
-- Listas
+- Variables and methods;
+- Mathematical Operators;
+- Flow control;
+- Lists.
 
-## Requisitos
+## Requirements
 ​
-Para este desafio você precisará :
+For this challenge you will need :
 
 - NodeJS LTS (8.12.0+)
 
-Para instalar, confira os links na seção de conteúdo.
-
-Obs.: Tente usar o mínimo de bibliotecas possível 
+**Note**: Try to use as few libraries as possible.
