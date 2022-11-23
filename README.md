@@ -81,7 +81,7 @@ To get a local copy, setting up and running the project, follow these simple ste
 ### 🛠️ Installation Steps
 1. Clone the repository
 ```Bash
-git clone https://github.com/sidneyaquino/codenation-caesar-cipher-challenge-js
+git clone https://github.com/sidneyaquino/codenation-node-fibonacci-challenge-js
 ```
 2. Go into the project directory
 
